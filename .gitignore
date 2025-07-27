@@ -1,4 +1,24 @@
-venv/
+# Python
 __pycache__/
 *.pyc
+
+# Virtual Environment
+venv/
 .env
+
+# Pytest & Coverage
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Logs
+logs/
+
+# IDE/editor configs
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db   
